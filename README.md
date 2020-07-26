@@ -1,4 +1,4 @@
-#Welcome to my **Dell XPS 7390** repository running **Gentoo** 17.1.
+Welcome to my **Dell XPS 7390** repository running **Gentoo** 17.1.
 
 Xanmod configuration **5.7.10-xanmod-x86_64** has all devices and firmware built-in, lspci output below.
 
