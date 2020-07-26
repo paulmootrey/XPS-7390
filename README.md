@@ -1,13 +1,23 @@
+
 # Welcome to my **Dell XPS 7390** repository running Gentoo 17.1.
 
-Xanmod configuration **5.7.10-xanmod-x86_64** has all devices and firmware built-in, lspci output below.
+ - Xanmod configuration 5.7.10-xanmod-x86_64 has all devices drivers and
+   firmware built-in
+ - BIOS v1.5.1 extracted using Dell_PFS_Extract
+   (https://github.com/LongSoft/PFSExtractor-RS)
+ - Management Engine bits cleaned using me_cleaner
+   (https://github.com/corna/me_cleaner).
 
-BIOS v1.5.1 extracted using Dell_PFS_Extract (https://github.com/LongSoft/PFSExtractor-RS)
-Management Engine bits cleaned using me_cleaner (https://github.com/corna/me_cleaner).
+> BIOS is untested as I do not have a way to recover the machine if
+> there is a failure during the flash. If someone is brave enough to
+> test or has a way to rollback please contact me.
 
-BIOS is untested as I do not have a way to recover the machine if there is a failure during the flash. If someone is brave enough to test or has a way to rollback please contact me.
+ - Repositories in use:
+   gentoo  gnome  gnome-next  lto-overlay  mv  steam-overlay
 
 **me_cleaner output**:
+
+'1 -- 2 Intel Management Engine Unmanaged Firmware Update v14.0.bin'
 
     ME/TXE image detected
     Found FPT header at 0x10
@@ -140,5 +150,3 @@ BIOS is untested as I do not have a way to recover the machine if there is a fai
     71:00.0 Non-Volatile memory controller: Lite-On Technology Corporation Device 2f00 (rev 01)
     	Subsystem: Marvell Technology Group Ltd. Device 1093
     	Kernel driver in use: nvme`
-
-
