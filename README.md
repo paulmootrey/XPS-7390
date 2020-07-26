@@ -1,15 +1,15 @@
-Welcome to my Dell XPS 7390 repository running Gentoo 17.1.
+#Welcome to my **Dell XPS 7390** repository running **Gentoo** 17.1.
 
-Xanmod configuration (5.7.10-xanmod-x86_64) has all devices and firmware built-in, lspci output below.
+Xanmod configuration **5.7.10-xanmod-x86_64** has all devices and firmware built-in, lspci output below.
 
 BIOS v1.5.1 extracted using Dell_PFS_Extract (https://github.com/LongSoft/PFSExtractor-RS)
-IME bits cleaned using me_cleaner (https://github.com/corna/me_cleaner).
+Management Engine bits cleaned using me_cleaner (https://github.com/corna/me_cleaner).
 
 BIOS is untested as I do not have a way to recover the machine if there is a failure during the flash. If someone is brave enough to test or has a way to rollback please contact me.
 
-me_cleaner output:
+**me_cleaner output**:
 
-ME/TXE image detected
+`ME/TXE image detected
 Found FPT header at 0x10
 Found 17 partition(s)
 Found FTPR header: FTPR partition spans from 0x2000 to 0x11b000
@@ -65,13 +65,13 @@ Reading FTPR modules list...
  touch_fw     (Huffman     , 0x0ddb40 - 0x11b000): removed
 The ME minimum size should be 331776 bytes (0x51000 bytes)
 Checking the FTPR RSA signature... VALID
-Done! Good luck!
+Done! Good luck!`
 
 
 
 
-lspci -k output:
-00:00.0 Host bridge: Intel Corporation Device 9b51
+**lspci -k output**:
+`00:00.0 Host bridge: Intel Corporation Device 9b51
 	Subsystem: Dell Device 0962
 00:02.0 VGA compatible controller: Intel Corporation Device 9bca (rev 04)
 	DeviceName: To Be Filled by O.E.M.
@@ -140,4 +140,4 @@ lspci -k output:
 	Kernel driver in use: xhci_hcd
 71:00.0 Non-Volatile memory controller: Lite-On Technology Corporation Device 2f00 (rev 01)
 	Subsystem: Marvell Technology Group Ltd. Device 1093
-	Kernel driver in use: nvme
+	Kernel driver in use: nvme`
