@@ -1,0 +1,5 @@
+VendorName=Dell Inc.
+OemString=Model_File
+SystemName=XPS 13 7390
+Version=1.5.1
+Model=0962

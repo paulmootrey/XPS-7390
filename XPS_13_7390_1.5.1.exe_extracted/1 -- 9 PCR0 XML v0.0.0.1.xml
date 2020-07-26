@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rimm x-schema="bios_attributes_v01.xsd http://www.trustedcomputinggroup.org/XML/SCHEMA/1_0_1/core_integrity# core_integrity_manifest_v16.xsd http://www.trustedcomputinggroup.org/XML/SCHEMA/1_0/rimm#  Reference_Integrity_Measurement_Manifest_v13.xsd http://www.trustedcomputinggroup.org/XML/SCHEMA/1_0/simple_object# simpleobject_v8.xsd" xmlns:ba="bios_aattributes_v01.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rimm="http://www.trustedcomputinggroup.org/XML/SCHEMA/1_0/rimm#" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:core="http://www.trustedcomputinggroup.org/XML/SCHEMA/1_0_1/core_integrity#" xmlns="http://www.trustedcomputinggroup.org/XML/SCHEMA/1_0/rimm#" UUID="66A0E802-2356-4772-A356-754510D30718" RevLevel="2" Id="_80995D5D-47B6-485b-8DFC-8901B1F2BDE3">
+  <core:ComponentID VersionString="1.5.1" ModelName="XPS 13 7390" ModelNumber="0x0962" Id="_A3DEB86B-BB3B-81C6-4A3A-5A299D3B097E">
+    <core:VendorID Name="Dell">
+      <core:TcgVendorId>Dell</core:TcgVendorId>
+      <core:SmiVendorId>674</core:SmiVendorId>
+    </core:VendorID>
+  </core:ComponentID>
+  <core:DigestMethod Id="SHA1" Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+  <core:DigestMethod Id="SHA256" Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+  <CompositeHash Id="_E170A4BB-1CB5-4CCD-A76C-FB0C25400CF6" AlgRef="SHA1">IFETYLZRuvy6w1/uQC8nFObpCYk=</CompositeHash>
+  <CompositeHash Id="_497F4659-3D33-444F-B879-EADFCFB06213" AlgRef="SHA256">vSX5IMJEcvRqM+G/w3iXgORcLRypMiZeBW94rQxGQgU=</CompositeHash>
+  <ba:BiosAttributes>
+    <ba:Rtm>Class1</ba:Rtm>
+    <ba:Rts>Class1</ba:Rts>
+    <ba:Rtr>Class1</ba:Rtr>
+    <ba:BiosSignaturePresent>Full</ba:BiosSignaturePresent>
+    <ba:BiosUpdateMechanism>Capsule</ba:BiosUpdateMechanism>
+    <ba:Virtualization>None</ba:Virtualization>
+    <ba:FlashLockdown>Chipset</ba:FlashLockdown>
+  </ba:BiosAttributes>
+  <core:SignerInfo>
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+      <ds:SignedInfo>
+        <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+        <ds:Reference URI="">
+          <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+          <ds:DigestValue />
+        </ds:Reference>
+      </ds:SignedInfo>
+      <ds:SignatureValue />
+    </ds:Signature>
+  </core:SignerInfo>
+</Rimm>
