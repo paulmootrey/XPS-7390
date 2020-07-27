@@ -3,8 +3,8 @@
 
  - Xanmod configuration 5.7.10-xanmod-x86_64 has all devices drivers and
    firmware built-in
- - BIOS v1.5.1 extracted using Dell_PFS_Extract
-   (https://github.com/LongSoft/PFSExtractor-RS)
+ - XPS BIOS v1.5.1 extracted using Dell_PFS_Extract
+   (https://github.com/platomav/BIOSUtilities)
  - Management Engine bits cleaned using me_cleaner
    (https://github.com/corna/me_cleaner).
 
