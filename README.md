@@ -1,5 +1,5 @@
 
-# Welcome to my **Dell XPS 7390** repository running Gentoo 17.1.
+# Welcome to my **Dell XPS 7390** repository running GentooLTO
 
  - Xanmod configuration 5.7.10-xanmod-x86_64 has all devices drivers and
    firmware built-in
@@ -13,7 +13,9 @@
 > test or has a way to rollback please contact me.
 
  - Repositories in use:
-   gentoo  gnome  gnome-next  lto-overlay  mv  steam-overlay
+   lto-overlay  mv
+   (https://github.com/InBetweenNames/gentooLTO)
+   (https://cgit.gentoo.org/user/mv.git)
 
 **me_cleaner output**:
 
