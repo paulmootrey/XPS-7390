@@ -1,5 +1,5 @@
 
-# Welcome to my **Dell XPS 7390** repository running GentooLTO
+# **Dell XPS 7390 running GentooLTO** repository
 
  - Xanmod configuration 5.7.10-xanmod-x86_64 has all devices drivers and
    firmware built-in
