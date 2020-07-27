@@ -1,8 +1,9 @@
 
-# Welcome to my **Dell XPS 7390** repository running GentooLTO
+# My Dell XPS 7390 running GentooLTO
 
  - Xanmod configuration 5.7.10-xanmod-x86_64 has all devices drivers and
    firmware built-in
+   (https://xanmod.org/)
  - XPS BIOS v1.5.1 extracted using Dell_PFS_Extract
    (https://github.com/platomav/BIOSUtilities)
  - Management Engine bits cleaned using me_cleaner
