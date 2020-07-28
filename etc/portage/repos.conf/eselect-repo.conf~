@@ -1,0 +1,35 @@
+# created by eselect-repo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[gnome-next]
+location = /var/db/repos/gnome-next
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/gnome-next.git
+
+[lto-overlay]
+location = /var/db/repos/lto-overlay
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/lto-overlay.git
+
+[mv]
+location = /var/db/repos/mv
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/mv.git
+
+[steam-overlay]
+location = /var/db/repos/steam-overlay
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/steam-overlay.git

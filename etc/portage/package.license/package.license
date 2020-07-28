@@ -1,0 +1,28 @@
+net-im/zoom-bin ZOOM
+app-emulation/virtualbox-extpack-oracle PUEL
+app-emulation/virtualbox-bin PUEL
+x11-drivers/nvidia-drivers NVIDIA-r2
+www-client/google-chrome google-chrome
+games-util/steam-launcher ValveSteamLicense
+# move net-im/slack-bin net-im/slack
+net-im/slack all-rights-reserved
+net-firewall/ufw-frontends CC-BY-NC-SA-3.0
+sys-firmware/intel-microcode intel-ucode
+sys-kernel/linux-firmware linux-fw-redistributable no-source-code
+media-fonts/font-bh-ttf bh-luxi
+media-fonts/font-bh-type1 bh-luxi
+x11-drivers/nvidia-drivers NVIDIA-r2
+www-client/google-chrome-unstable google-chrome
+net-im/zoom ZOOM all-rights-reserved
+app-editors/vscode-bin MS-vscode-EULA
+# required by games-util/lutris-0.5.4-r1::gentoo
+# required by lutris (argument)
+app-arch/unrar unRAR
+app-arch/p7zip unRAR
+# required by zoom-bin (argument)
+net-im/zoom-bin all-rights-reserved
+x11-themes/adwaita-icon-theme CC-Sampling-Plus-1.0
+# required by sys-apps/hwloc-2.0.4::gentoo[cuda]
+# required by net-wireless/aircrack-ng-1.6-r1::gentoo
+# required by aircrack-ng (argument)
+>=dev-util/nvidia-cuda-toolkit-10.2.89-r1 NVIDIA-CUDA
